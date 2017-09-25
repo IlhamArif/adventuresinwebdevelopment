@@ -2,5 +2,6 @@ body {
 background-image: url("code.png");
 }
 h1 {
+color: Red;
 font-family: Papyrus;
 }
