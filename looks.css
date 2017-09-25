@@ -1,5 +1,5 @@
 body {
-background-image: code.png;
+background-image: url("code.png");
 }
 h1 {
 font-family: Papyrus;
