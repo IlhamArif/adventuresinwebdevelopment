@@ -1,9 +1,7 @@
-function begin(e) {
-  if (e.keyCode == 13) {
+function Learn() {
   var code = '<textarea cols=141 rows=30 id="code"></textarea><pre><button onclick=nles()>Run</button>   <button onclick=stins()>Repeat Instructions</button></pre>'
   document.body.innerHTML = code;
   stins()
-  }
 }
 function stins() {
 alert("Mike: Alright, Follow These Instructions.")
@@ -22,4 +20,3 @@ var code = '<textarea cols=141 rows=30 id="code"></textarea><pre><button onclick
 alert("Mike: Bro, you're doing it wrong.\n      Try it again.")
 }
 }
-document.onkeydown = begin;
