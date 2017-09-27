@@ -1,4 +1,4 @@
-function Start(e) {
+function start(e) {
 alert(e.keyCode);
 }
-document.onkeydown = Start;
+document.onkeydown = start;
