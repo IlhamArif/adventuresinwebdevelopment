@@ -1,5 +1,5 @@
 function begin(e) {
-if (e.keyCode == 17 && e.keyCode == 13) {
+if (e.keyCode == 17) {
   var code = '<textarea cols=141 rows=30 id="code"></textarea><pre><button onclick=nles()>Run</button>   <button onclick=stins()>Repeat Instructions</button></pre>'
   document.body.innerHTML = code;
   stins()
