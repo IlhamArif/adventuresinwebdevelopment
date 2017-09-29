@@ -1,8 +1,8 @@
-function begin(e) {
-if (e.keyCode == 17 && e.keyCode == 13) {
+function begin() {
+alert("Mike: Bro, have you heard? Mozilla is having job openings for web deveopers who have experience \n      in JavaScript.\nJoe(You): I don't know, I never coded in JavaScript.\nMike: Don't Worry, let me help you.")
 var code = '<textarea cols=141 rows=30 id="code"></textarea><pre><button onclick=nxles()>Run</button>   <button onclick=ndins()>Repeat Instructions</button></pre>'
 document.body.innerHTML = code;
-}
+stins()
 }
 function stins() {
 alert("Mike: Alright, Follow These Instructions.")
@@ -21,5 +21,3 @@ document.body.innerHTML = code;
 } else {
 alert("Mike: Bro, you're doing it wrong.\n      Try it again.")
 }
-}
-document.onkeydown = begin;
