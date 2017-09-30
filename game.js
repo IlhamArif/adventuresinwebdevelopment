@@ -15,8 +15,13 @@ document.body.innerHTML = '<textarea id="code" cols=141 rows=30></textarea><br /
 var s = document.createElement("script");
 s.async = true;
 s.innerHTML = stcode;
+document.body.appendChild(s);
 ndins()
 } else {
 alert("Mike: Sorry Bro, you did something wrong.")
+var s = document.createElement("script");
+s.async = true;
+s.innerHTML = stcode;
+document.body.appendChild(s); 
 }
 }
