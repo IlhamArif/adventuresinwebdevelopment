@@ -14,9 +14,9 @@ var s = document.createElement("script");
 s.async = true;
 s.innerHTML = stcode;
 document.body.appendChild(s);
-ndins()
 alert("Mike: Good Job Joe.")
 document.body.innerHTML = '<textarea id="code" cols=141 rows=30></textarea><br /><pre><button onclick=ndrun()>Run</button>   <button onclick=ndins()>Repeat Instructions</button></pre>'
+ndins()
 } else {
 var s = document.createElement("script");
 s.async = true;
