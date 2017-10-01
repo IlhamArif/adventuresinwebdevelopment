@@ -1,0 +1,17 @@
+<head>
+<title>Adventures In Web Development</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width", initial-scale=1.0, user-scalable=no' />
+</head>
+<body>
+<textarea id="code" cols=141 rows=30></textarea><br /><button onclick=Run()>Run</button>
+<script>
+function Run() {
+var thecode = document.getElementById("code").value;
+var s = document.createElement("script");
+s.async = true;
+s.innerHTML = thecode;
+document.body.appendChild(s);
+}
+</script>
+</body>
